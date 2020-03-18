@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OnlineShop2</string>
+    <string name="switch_title">Setting option</string>
+    <string name="summary">Turn the option on or off</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
