@@ -122,6 +122,8 @@ public class MainActivity extends AppCompatActivity implements Dialog.DialogList
             case R.id.settings:
                 startActivity(new Intent(this, SettingActivity.class));
                 return true;
+            case R.id.internalstorage:
+                startActivity(new Intent(this, InternalStorage.class));
             default:  return super.onOptionsItemSelected(item);
         }
 

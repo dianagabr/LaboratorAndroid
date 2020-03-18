@@ -20,4 +20,8 @@
         android:title="Settings"
         android:icon="@drawable/ic_account"
         app:showAsAction="never"/>
+    <item android:id="@+id/internalstorage"
+        android:title="Save/Load"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="never"/>
 </menu>
