@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.Context;
 import android.content.Intent;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -124,7 +125,12 @@ public class MainActivity extends AppCompatActivity implements Dialog.DialogList
                 return true;
             case R.id.internalstorage:
                 startActivity(new Intent(this, InternalStorage.class));
+            case R.id.sensors:
+                startActivity(new Intent(this, SensorActivity.class));
+            case R.id.location:
+                startActivity(new Intent(this, LocationActivity.class));
             default:  return super.onOptionsItemSelected(item);
+
         }
 
     }

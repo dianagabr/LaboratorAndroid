@@ -24,4 +24,12 @@
         android:title="Save/Load"
         android:icon="@drawable/ic_account"
         app:showAsAction="never"/>
+    <item android:id="@+id/sensors"
+        android:title="Sensors List"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="never"/>
+    <item android:id="@+id/location"
+        android:title="Location"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="never"/>
 </menu>
