@@ -32,4 +32,8 @@
         android:title="Location"
         android:icon="@drawable/ic_account"
         app:showAsAction="never"/>
+    <item android:id="@+id/camera"
+        android:title="Camera"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="never"/>
 </menu>

@@ -129,6 +129,8 @@ public class MainActivity extends AppCompatActivity implements Dialog.DialogList
                 startActivity(new Intent(this, SensorActivity.class));
             case R.id.location:
                 startActivity(new Intent(this, LocationActivity.class));
+            case R.id.camera:
+                startActivity(new Intent(this, CameraActivity.class));
             default:  return super.onOptionsItemSelected(item);
 
         }
